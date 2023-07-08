@@ -154,3 +154,9 @@ main {
     margin-top: 0px;
     padding-top: 0px;
 }
+/* Skills related style */
+#what-i-do-description{
+    padding{
+        margin: 30px 130px;
+    }
+}
