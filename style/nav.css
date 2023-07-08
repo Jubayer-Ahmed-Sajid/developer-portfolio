@@ -171,7 +171,6 @@ main section {
     /* justify-content: space-around; */
 }
 
-.skiil-description {}
 
 .skill {
     padding: 30px;
@@ -218,4 +217,12 @@ main section {
 .download-cv{
     text-align: center;
     margin-top:50px;
+}
+/* Footer style */
+footer
+{
+    display: flex;
+    background: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
 }
