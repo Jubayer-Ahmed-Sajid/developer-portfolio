@@ -54,28 +54,55 @@ body {
 
 header {
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
 
+}
+
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.section-description {
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 /* Banner styling */
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner-content{
-    padding: 30px 30px 30px 150px;
+
+.banner-content {
+    padding: 30px 30px 0px 150px;
+    max-width: 500px;
 }
-.banner-greeting{
+
+.banner-greeting {
     color: #474747;
     font-size: 25px;
     font-weight: 600;
+    margin-bottom: 0px;
 }
 
 .banner-title {
     color: #181818;
     font-size: 45px;
     font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
 }
 
 .banner-text {
@@ -85,6 +112,19 @@ header {
     line-height: 30px;
 }
 
-.profile-pic{
-    width:450px;
+.profile-pic {
+    width: 450px;
+}
+
+/* Main section style */
+/* main { */
+    /* max-width: 1140px; */
+/* } */
+
+/* About section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
 }
